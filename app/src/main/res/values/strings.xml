@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AppDI</string>
+    <string name="tv_titulo">Datos Personales;</string>
+    <string name="tv_Datos">Nombre: %1$s \nContraseña: %2$s</string>
+</resources>
