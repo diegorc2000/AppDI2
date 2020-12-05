@@ -13,6 +13,14 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 
+
+/**
+ * Ventana de bienvenida on una animacion y un scrim
+ * @author diego
+ * @see LoginActivity
+ */
+
+
 public class SplashActivity extends Activity {
     //    @RequiresApi(api = Build.VERSION_CODES.O)
 

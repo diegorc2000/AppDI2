@@ -21,17 +21,17 @@
 
     <TextView
         android:id="@+id/txtRegistro"
+        style="@style/ButtonStraight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/marko_one"
         android:onClick="Registro"
         android:text="No tienes cuenta? Registrate"
-        android:textColor="@color/design_default_color_background"
+        android:textColor="@color/material_on_surface_emphasis_high_type"
         android:textSize="18sp"
-        app:layout_constraintTop_toBottomOf="@+id/btnLogIn"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        style="@style/ButtonStraight"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogIn" />
 
     <ImageView
         android:id="@+id/imageView2"
