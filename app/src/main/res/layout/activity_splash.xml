@@ -9,7 +9,7 @@
 
     <ImageView
         android:id="@+id/rosa"
-        android:layout_width="83dp"
+        android:layout_width="84dp"
         android:layout_height="84dp"
         android:src="@drawable/ic_rose"
         app:layout_constraintBottom_toBottomOf="parent"
