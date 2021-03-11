@@ -2,9 +2,9 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_context"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondo2"
     tools:context=".MainActivity">
 
     <ImageView
@@ -12,15 +12,13 @@
         android:layout_width="273dp"
         android:layout_height="123dp"
         android:layout_marginStart="60dp"
-        android:layout_marginLeft="60dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="88dp"
         android:layout_marginEnd="60dp"
-        android:layout_marginRight="60dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/rose"
-        app:tint="#FFFFFF" />
+        app:tint="#000000" />
 
     <Button
         android:id="@+id/btnAceptar"
@@ -28,10 +26,44 @@
         android:layout_height="wrap_content"
         android:onClick="Aceptar"
         android:text="Aceptar"
-        app:backgroundTint="@color/design_default_color_on_secondary"
+        app:backgroundTint="@color/design_default_color_error"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/myswipe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/taporswipetext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black_800"
+            android:textSize="24sp"
+            android:textStyle="normal" />
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <com.alespero.expandablecardview.ExpandableCardView
+        android:id="@+id/profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/secondaryColor"
+        app:animationDuration="300"
+        app:expandOnClick="true"
+        app:inner_view="@drawable/ic_rose"
+        app:layout_constraintBottom_toBottomOf="@+id/myswipe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:startExpanded="false"
+        app:title="Passengers" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

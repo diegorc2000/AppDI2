@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ramiro.ernesto.nicestart.MainActivity">
+
+    <item
+        android:id="@+id/search"
+        android:icon="@android:drawable/ic_search_category_default"
+        android:title="search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/camera"
+        android:icon="@drawable/ic_help"
+        android:title="Camara"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_action_settings"
+        android:title="Settings" />
+
+
+</menu>

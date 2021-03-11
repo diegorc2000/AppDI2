@@ -2,4 +2,19 @@
     <string name="app_name">AppDI</string>
     <string name="tv_titulo">Datos Personales;</string>
     <string name="tv_Datos">Nombre: %1$s \nContraseña: %2$s</string>
+
+    <string name="top_app_bar_label_title">Top app bar</string>
+    <string name="app_bar_menu_share">Share</string>
+    <string name="app_bar_menu_search">Search</string>
+    <string name="app_bar_menu_bookmark">Bookmark</string>
+    <string name="favorites">Favoritos</string>
+    <string name="music">Musica</string>
+    <string name="places">sitios</string>
+    <string name="news">news</string>
+    <string name="corazon">Corazon</string>
+    <string name="musica">Musica</string>
+    <string name="localizacion">Localizacion</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="item">Item</string>
+    <string name="delete">Delete</string>
 </resources>
