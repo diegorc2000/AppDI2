@@ -5,10 +5,10 @@
 * elemento1
  *subelemento1
  
-![](img/SplashActivity.jpg) 
-![](img/SignupActivity.jpg)
-![](img/LoginActivity.jpg) 
-![](img/Activity_main.jpg)
-![](img/Activity_main2.jpg) 
+![](img/splash.jpg)
+![](img/login.jpg)
+![](img/singin.jpg)
+![](img/main.jpg)
+![](img/main2.jpg)
 
 
